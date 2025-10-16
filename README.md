@@ -7,27 +7,27 @@ This project is a **Command-Line Interface (CLI) database manager** for horror m
 
 ## **Features Implemented (Phase 2)**
 
-### 1️⃣ File Handling
+### 1️ File Handling
 - Movies are stored and loaded from a CSV file (`movies.csv`).  
 - JUnit tests confirm that files **open successfully** and handle valid/invalid lines.
 
-### 2️⃣ Add Movies
+### 2️ Add Movies
 - Users can **add new movies** via CLI or programmatically.  
 - JUnit tests validate that movies are correctly inserted into the database.
 
-### 3️⃣ Remove Movies
+### 3️ Remove Movies
 - Movies can be **removed** by index.  
 - JUnit tests verify successful removal.
 
-### 4️⃣ Update Movies
+### 4️ Update Movies
 - Any movie attribute can be **edited** via CLI.  
 - JUnit tests simulate edits by replacing an old movie with updated data.
 
-### 5️⃣ Custom Action: Scariness Score
+### 5️ Custom Action: Scariness Score
 - Each movie has a **scariness score** calculated from rating, votes, runtime, and watched status.  
 - JUnit tests verify that scores are **between 0.0 and 10.0**.
 
-### 6️⃣ CSV Upload
+### 6️ CSV Upload
 - Users can **upload movies from an external CSV file**.  
 - CSV format is validated; invalid lines are reported but skipped.  
 - JUnit tests verify insertion count and errors.
@@ -51,13 +51,13 @@ This project is a **Command-Line Interface (CLI) database manager** for horror m
 ## **Phase 2 Completion Status**
 | Requirement | Status |
 |------------|--------|
-| File open | ✅ |
-| Add object | ✅ |
-| Remove object | ✅ |
-| Update object (any attribute) | ✅ |
-| Custom action (scariness) | ✅ |
-| Dummy objects for tests | ✅ |
-| JUnit tests executable | ✅ |
+| File open | 
+| Add object | 
+| Remove object | 
+| Update object (any attribute) | 
+| Custom action (scariness) | 
+| Dummy objects for tests |
+| JUnit tests executable | 
 
 **All requirements for Phase 2 are fully implemented and verified.**  
 
